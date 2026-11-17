@@ -1,8 +1,21 @@
 # Evalvo
 
+**Vyber si model podľa toho, ako zvláda tvoje úlohy.**
+
+[Web Evalva](https://www.evalvo.site/) · [Zadania](#zadania) · [Architektúra](#high-level-architekt%C3%BAra)
+
+[![Evalvo Arena zobrazuje odpovede viacerých modelov na rovnaký vstup](https://www.evalvo.site/hero-desktop.png)](https://www.evalvo.site/)
+
 Evalvo je návrh platformy na výber jazykového modelu pre konkrétnu úlohu. Umožňuje stiahnuť kompatibilný lokálny model, prispôsobiť ho vlastnými dátami alebo pripojiť API model. Používateľ môže modely vyskúšať v konverzácii a porovnať kvalitu odpovedí, spotrebu tokenov a dostupné náklady na vlastných vstupoch.
 
 Repozitár obsahuje funkčné požiadavky, návrh kontraktov API a mikroservisnú architektúru rozdelenú do troch zadaní.
+
+## Ukážky evaluácie
+
+| Očakávaný výstup | Skóre kandidátov |
+| --- | --- |
+| [![Formulár na zadanie očakávaného výstupu v Evalve](https://www.evalvo.site/resource-allocation/expected-output.svg)](https://www.evalvo.site/resource-allocation/expected-output.svg) | [![Graf porovnania skóre podľa modelu v Evalve](https://www.evalvo.site/resource-allocation/evidence-chart.svg)](https://www.evalvo.site/resource-allocation/evidence-chart.svg) |
+| Urči, aký výsledok má model vrátiť. | Porovnaj, ktoré modely splnili očakávania. |
 
 ## Zadania
 
